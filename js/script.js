@@ -29,7 +29,7 @@ const loopGame = setInterval(() => {
         mario.style.width = "75px";
         mario.style.marginleft = "45px";
 
-        tocaMarioDeath();
+        tocaMarioMorre();
         game_over.style.display = 'block';
         clearInterval(loopGame);
 
@@ -57,8 +57,8 @@ let score = 1;
 function updated() {
     pontos.innerHTML = "score: " + score++;
 };
-function tocaMarioDeath(){
-    document.querySelector("#mario-death").play();
+function tocaMarioMorre(){
+    document.querySelector("#mario-morre").play();
 };
 function tocaMarioCoin(){
     document.querySelector("#mario-coin").play();
