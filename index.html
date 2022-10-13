@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href=".//style/style.css">
+    <title>Jodo do Mario</title>
+</head>
+<body>
+    <div class="game">
+
+        <div id="start-game" class="start-game">
+            <h1>Super Mario</h1>
+            <p>Use the spacebar to help mario jump over obstacles!</p>
+            <input type="button" value="Start Game" id="start-game">
+        </div>
+
+        <div id="game-over" class="game-over">
+            <h1>Game Over</h1>
+            <p>Use the spacebar to help mario jump over obstacles!</p>
+            <input type="button" value="Try again!" id="reset_button">
+        </div>
+
+        <div id="score">Score:</div>
+            <img src="./images/clouds.png" class="clouds" alt="nuvens">
+            <img src="./images/mario-run.gif" class="mario-run jump-mario" alt="video do mario correndo">
+            <img src="./images/cone-verde.png" class="cone-verde" alt="">
+        
+    </div>
+
+    <audio src="./marioHello.mp3" id="mario-hello"></audio>
+    <audio src="./sons_mario_death.mp3" id="mario-death"></audio>
+    <audio src="./sons_mario_coin.mp3" id="mario-coin"></audio>
+
+    <script src="./js/script.js"></script>   
+</body>
+</html>
